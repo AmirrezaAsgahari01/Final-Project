@@ -1,0 +1,13 @@
+body {
+  background: #b89d1a;
+  background: linear-gradient(to right, #ffe259, #854a10);
+  font-family: "Poppins", sans-serif;
+}
+
+.bg {
+  background-image: url("../images/LX Logo.jfif");
+  background-size: contain;
+  background-position: center center;
+}
+
+/*# sourceMappingURL=login.css.map */

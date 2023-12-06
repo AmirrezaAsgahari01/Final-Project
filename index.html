@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="./assets/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <script src="./assets/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="./assets/js/main.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="main-navbar shadow-sm sticky-top">
+        <div class="top-navbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2 my-auto d-none d-sm-none d-md-block d-lg-block">
+                        <h5 class="brand-name">Louis Vuitton</h5>
+                    </div>
+                    <div class="col-md-5 my-auto">
+                        <form role="search">
+                            <div class="input-group">
+                                <input type="search" placeholder="Search your product" class="form-control" />
+                                <button class="btn bg-white" type="submit">
+                                    <i class="material-icons">search</i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-5 my-auto">
+                        <ul class="nav justify-content-end">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="material-icons" style="font-size: 20px;">shopping_bag</i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="material-icons" style="font-size: 17px;">favorite</i> Wishlist (0)
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-user"></i> LV User
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#"><i class="material-icons"
+                                                style="font-size:12px;">person</i> Profile</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="material-icons"
+                                                style="font-size:17px;">list</i> My LV</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="material-icons"
+                                                style="font-size:15px;">call</i> Call us</a>
+                                    <li><a class="dropdown-item" href="#"><i class="material-icons"
+                                                style="font-size:15px;">logout</i> Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand d-block d-sm-block d-md-none d-lg-none" href="#">
+                    Funda Ecom
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Holiday Gifts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Woman</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Men</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Perfumes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Accessories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bags</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Watches</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Art of Living</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">World of Luis Vuitton</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/images/LV_Services_WW_HP_Push_DI3.webp" alt="Los Angeles" class="d-block"
+                    style="width:100%">
+                <div class="carousel-caption">
+                    <h3> Louis Vuitton</h3>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/Men_SS24_Preco_WW_HP_Push_V1201_DI3.webp" alt="Chicago" class="d-block"
+                    style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Spring-Summer 2024 Pre-Collection</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/Women_Cruise_2024_WW_HP_Push_V1201_DI3.webp" alt="New York" class="d-block"
+                    style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Cruise 2024</h3>
+                </div>
+            </div>
+        </div>
+
+        <section class="productC">
+            <div class="text-center container py-5" >
+                <h4 class="mt-4 mb-5"><strong>NewCollection</strong></h4>
+
+                <div class="row" >
+                    <div class="col-lg-4 col-md-12 mb-4" >
+                        <div class="col-lg-4 col-md-6 mb-4" id="product-container">
+                            <!-- <div class="card">
+                                <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                                    data-mdb-ripple-color="light">
+                                    <img src="./assets/images/Product2.png" class="w-100" />
+                                    <a href="#!">
+                                        <div class="mask">
+                                            <div class="d-flex justify-content-start align-items-end h-100">
+                                                <h5><span class="badge bg-primary ms-2">New</span></h5>
+                                            </div>
+                                        </div>
+                                        <div class="hover-overlay">
+                                            <div class="mask"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="" class="text-reset">
+                                        <h5 class="card-title mb-3">MNG Scarf</h5>
+                                    </a>
+                                    <a href="" class="text-reset">
+                                        <p>Accessoires</p>
+                                    </a>
+                                    <h6 class="mb-3">$476.99</h6>
+                                </div>
+                                <div class="card-body">
+                                    <button type="button" class="btn btn-success">Add me</button>
+                                </div>
+                                <div class="card-footer">2 days ago</div>
+                            </div> -->
+
+                        </div>
+
+                        <!-- <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                                    <img src="./assets/images/Product3.png" class="w-100" />
+                                    <a href="#!">
+                                        <div class="mask">
+                                            <div class="d-flex justify-content-start align-items-end h-100">
+                                                <h5><span class="badge bg-primary ms-2">New</span></h5>
+                                            </div>
+                                        </div>
+                                        <div class="hover-overlay">
+                                            <div class="mask"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="" class="text-reset">
+                                        <h5 class="card-title mb-3">Reversible Belt</h5>
+                                    </a>
+                                    <a href="" class="text-reset">
+                                        <p>Accessoires</p>
+                                    </a>
+                                    <h6 class="mb-3">
+                                        $143.99
+                                    </h6>
+                                </div>
+                                <div class="card-body">
+                                    <button type="button" class="btn btn-success">Add me</button>
+                                </div>
+                                <div class="card-footer">2 days ago</div>
+                            </div>
+                        </div> -->
+
+                    </div>
+
+                    <!-- <div class="row">
+                        <div class="col-lg-4 col-md-12 mb-4">
+                            <div class="card">
+                                <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                                    <img src="./assets/images/Product4.png" class="w-100" />
+                                    <a href="#!">
+                                        <div class="mask">
+                                            <div class="d-flex justify-content-start align-items-end h-100">
+                                                <h5>
+                                                    <span class="badge bg-primary ms-2">New</span>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="hover-overlay">
+                                            <div class="mask"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="" class="text-reset">
+                                        <h5 class="card-title mb-3">Star Trail Anker Boot</h5>
+                                    </a>
+                                    <a href="" class="text-reset">
+                                        <p>Shose</p>
+                                    </a>
+                                    <h6 class="mb-3">
+                                        $899.99
+                                    </h6>
+                                </div>
+                                <div class="card-body">
+                                    <button type="button" class="btn btn-success">Add me </button>
+                                </div>
+                                <div class="card-footer">2 days ago</div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                                    data-mdb-ripple-color="light">
+                                    <img src="./assets/images/Product5.png" class="w-100" />
+                                    <a href="#!">
+                                        <div class="mask">
+                                            <div class="d-flex justify-content-start align-items-end h-100">
+                                                <h5>
+                                                    <span class="badge bg-primary ms-2">New</span>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="hover-overlay">
+                                            <div class="mask"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="" class="text-reset">
+                                        <h5 class="card-title mb-3">GO 14 MM</h5>
+                                    </a>
+                                    <a href="" class="text-reset">
+                                        <p>Bags</p>
+                                    </a>
+                                    <h6 class="mb-3">$1232.99</h6>
+                                </div>
+                                <div class="card-body">
+                                    <button type="button" class="btn btn-success">Add me</button>
+                                </div>
+                                <div class="card-footer">3 days ago</div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card">
+                                <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                                    <img src="./assets/images/Product6.png" class="w-100" />
+                                    <a href="#!">
+                                        <div class="mask">
+                                            <div class="d-flex justify-content-start align-items-end h-100">
+                                                <h5>
+                                                    <span class="badge bg-primary ms-2">New</span>
+
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="hover-overlay">
+                                            <div class="mask"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="" class="text-reset">
+                                        <h5 class="card-title mb-3">100 ML Travel Case</h5>
+                                    </a>
+                                    <a href="" class="text-reset">
+                                        <p>Perfumes</p>
+                                    </a>
+                                    <h6 class="mb-3">
+                                        $999.99
+                                    </h6>
+                                </div>
+                                <div class="card-body">
+                                    <button type="button" class="btn btn-success">Add me</button>
+                                </div>
+                                <div class="card-footer">2 days ago</div>
+                            </div>
+
+                        </div> -->
+                    </div>
+                </div>
+        </section>
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-body-tertiary text-muted bg-footer">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom ">
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block foothead ">
+                    <span class=" text-color">Get connected with us on social networks:</span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section>
+                <div class="container text-center text-md-start mt-5 ">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4 text-color">
+                                <i class="fas fa-gem me-3"></i>Louis Vuitton
+                            </h6>
+                            <p class="text-color">
+                                Louis Vuitton (French: [lwi vɥitɔ̃] ⓘ; 4 August 1821 – 27 February 1892)[1] was a French
+                                fashion designer and businessman. He was the founder of the Louis Vuitton brand of
+                                leather goods now owned by LVMH. Prior to this, he had been appointed as trunk-maker to
+                                Empress Eugénie de Montijo, wife of Napoleon III.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4 text-color">
+                                Products
+                            </h6>
+                            <p class="text-color">
+                                <a href="#!" class="text-reset ">Fashion Shows</a>
+                            </p>
+                            <p class="text-color">
+                                <a href="#!" class="text-reset ">Arts & Culture</a>
+                            </p>
+                            <p class="text-color">
+                                <a href="#!" class="text-reset ">La Maison
+                                </a>
+                            </p>
+                            <p class="text-color">
+                                <a href="#!" class="text-reset ">perfumes</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4 text-color">
+                                Services
+                            </h6>
+                            <p class="text-color">
+                                <a href="#!" class="text-reset ">Repairs</a>
+                            </p>
+                            <p class="text-color">
+                                <a href="#!" class="text-reset">Personalisiation</a>
+                            </p>
+                            <p class="text-color">
+                                <a href="#!" class="text-reset">Art of Gifting</a>
+                            </p>
+                            <p class="text-color">
+                                <a href="#!" class="text-reset">Download our Apps</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4 text-color">Contact</h6>
+                            <p class="text-color"><i class="material-icons" style="font-size: 14px;">home</i> New York,
+                                NY 10012, US</p>
+                            <p class="text-color">
+                                <i class="material-icons" style="font-size: 14px;">mail</i>
+                                LouisVuitton@Gmail.com
+                            </p>
+                            <p class="text-color"><i class="material-icons" style="font-size: 17px;">phone_iphone</i> +
+                                01 234 567 88</p>
+                            <p class="text-color"><i class="material-icons" style="font-size: 17px;">phone_iphone</i> +
+                                01 234 567 89</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4 text-color" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2023 Copyright:
+                <a class="text-reset fw-bold" href="https://eu.louisvuitton.com/eng-e1/homepage">LouisVuitton.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+
+
+
+
+</body>
+
+</html>
